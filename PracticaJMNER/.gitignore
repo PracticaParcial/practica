@@ -44,7 +44,7 @@ node_modules/
 Thumbs.db
 
 # JetBrains Rider caches
-.idea/
+*.idea/
 *.DotSettings.user
 
 # Environment files
