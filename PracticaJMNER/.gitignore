@@ -1,0 +1,57 @@
+# Build results
+bin/
+obj/
+out/
+
+# Rider-specific
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Secrets and sensitive config
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json.user
+
+# EF Core tools files (can be ignored unless needed)
+Migrations/
+
+# VS Code settings (if someone uses it)
+.vscode/
+
+# Logs
+*.log
+*.tlog
+
+# Runtime files
+*.db
+*.sqlite
+
+# Publish results
+publish/
+wwwroot/
+
+# npm / yarn (if you use frontend tools)
+node_modules/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# JetBrains Rider caches
+*.idea/
+*.DotSettings.user
+
+# Environment files
+.env
+.env.*
+
+# Backup and temp
+*.bak
+*.tmp
+*.swp
