@@ -1,0 +1,70 @@
+
+bin/
+obj/
+out/
+publish/
+
+#####################
+# CONFIGURACIONES IDE
+#####################
+
+# JetBrains Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+#####################
+# ARCHIVOS TEMPORALES
+#####################
+*.tmp
+*.bak
+*.swp
+*.pid
+
+##########
+# LOG FILES
+##########
+*.log
+
+###############################
+# CONFIGURACIONES Y SECRETOS
+###############################
+
+# Secretos de entorno local
+secrets.json
+
+# Configuración de entorno (dev, test, etc.)
+.env
+.env.*
+
+# AppSettings específicos del entorno
+appsettings.Development.json
+
+#################################
+# PAQUETES Y DEPENDENCIAS NUGET
+#################################
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+##############################
+# ARCHIVOS DE MIGRACIÓN (OPCIONAL)
+##############################
+# Si NO querés versionar tus migraciones, descomentá la siguiente línea
+Migrations/
+
+##########################
+# ARCHIVOS DEL SISTEMA
+##########################
+.DS_Store
+Thumbs.db
